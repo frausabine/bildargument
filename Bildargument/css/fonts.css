@@ -1,0 +1,19 @@
+@font-face {
+	font-family: 'TypefaceSix';
+	src: url('../fonts/TypefaceSix.eot?#iefix') format('embedded-opentype'),
+		 url('../fonts/TypefaceSix.woff') format('woff'),
+		 url('../fonts/TypefaceSix.ttf')  format('truetype'),
+		 url('../fonts/TypefaceSix.svg#TypefaceSix') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Typestar';
+	src: url('../fonts/Typestar-Normal.eot?#iefix') format('embedded-opentype'),
+		 url('../fonts/Typestar-Normal.woff') format('woff'),
+		 url('../fonts/Typestar-Normal.ttf')  format('truetype'),
+		 url('../fonts/Typestar-Normal.svg#Typestar-Normal') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
