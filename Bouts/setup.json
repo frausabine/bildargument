@@ -1,0 +1,11 @@
+{
+    "id": "flowchart-template",
+    "title": "Gerechtigkeit in Bildern?",
+    "subtitle": "Interaktive Visualisierung zu den Löwener Rathausbildern von Dierick Bouts",
+    "colors": {
+        "background-color": "#F2EEE6",
+        "intro-background-color": "#e0cfb6",
+        "text-color": "#1D1D1B",
+        "accent-color": "#CA9E67"
+    }
+}
