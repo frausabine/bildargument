@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no" />
+    <link rel="stylesheet" href="src/style.css">
+    <script src="src/libs/marked.min.js"></script>
+    <script src="src/syllabussite.js"></script>
+    <link rel="icon" type="image/x-icon" href="src/img/favicon.ico">
+    <link rel="icon" type="image/png" href="src/img/favicon.png">
+    <link rel="icon" type="image/svg" href="src/img/favicon.svg">
+
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Expires" content="0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Allerta+Stencil&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Saira+Stencil+One&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Text:wght@100..900&family=Saira+Stencil+One&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Text:wght@100..900&family=Josefin+Slab:wght@100..700&family=Saira+Stencil+One&display=swap" rel="stylesheet">
+    
+    <!-- adjust open graph fields -->
+    <title>El Lissitzky – Mit dem roten Keil schlage die Weißen</title>
+    <meta property="og:url" content="http://127.0.0.1:8080">
+    
+    <meta property="og:title" content="El Lissitzky – Mit dem roten Keil schlage die Weißen">
+    <meta property="og:description" content="Die Visualisierung von Maria Dinitz untersucht die semantische Formsprache von El Lissitzkys Plakat &quot;Mit dem roten Keil schlage die Weißen&quot; aus dem Jahr 1920 und setzt dieses in einen historischen, politischen und künstlerischen Kontext mithilfe der Syllabus Site.">
+    <meta property="og:image" content="https://raw.githubusercontent.com/coftob/Lissitzkys-Roter-Keil/main/img/cover.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    
+    <!-- adjust theme color -->
+    <style> body { --theme-color:   #8c857fbf; } </style>
+    
+</head>
+<body>
+
+    <div id="app">
+        <div class="overlay"></div>
+        <div class="hamburger-icon" id="icon" onclick="toggleMenu()">
+            <div class="icon-1" id="a"></div>
+            <div class="icon-2" id="b"></div>
+            <div class="icon-3" id="c"></div>
+            <div class="clear"></div>
+          </div>
+        <div id="menu">
+              <div id="anchors"></div>
+        </div>
+        <div class="kopf">
+            <h4>Maria Dinitz | Argumentation im Bild und über das Bild: Europäische Bild- und Kleidergeschichte visualisiert | Sommersemester 2024</h4>
+        </div>
+        
+        <div id="wrapper">
+            <canvas id="links"></canvas>
+            <div id="cursors"></div>
+            <div id="content"></div>
+        </div>
+    </div>
+    <div class="verzeichnis">
+        <h3>Literaturverzeichnis</h3>
+        <hr>
+        
+        <ol type="1">
+            <li>Krieger, V. (2015). El Lissitzkys „Roter Keil“ - 4 Kontexte und 3 Bildlektüren. Die Semantik der Form in Ikonologischer Perspektive. In M. Schulz & K. Marek (Hrsg.), Kanon Kunstgeschichte 3: Einführung in Werke, Methoden und Epochen – Moderne (S. 172–213). Wilhelm Fink.</li>
+            <li>Koslow, D. (2014). «КЛИНОМ КРАСНЫМ БЕЙ БЕЛЫХ» – геометрическая символика в искусстве авангарда (MIT DEM ROTEN KEIL SCHLAGE DIE WEIßEN“ – Geometrische Symbolik in der Avantgarde Kunst). Издательство Европейского университета в Санкт-Петербурге (Verlag der europäischen Universität in Sankt-Petersburg).</li>
+            <li>Lissitzky, E. (1920). Супрематический сказ про два квадрата в 6-ти постройках (Suprematische Erzählung von zwei Quadraten in 6 Aufstellungen). Verlag „Skythen“.</li>
+        </ol>  
+    </div>
+
+    <div class="verzeichnis" id="bildnachweise">
+          <h3>Bildnachweise</h3>
+          <hr>
+
+          <ol type="1">
+              <li> Lissitzky, E. (1920). Клином красным бей белых (Mit dem roten Keil schlage die Weißen) [Offsetdruck]. El Lissitzky 1890 - 1941, Retrospektive, hrsg. v.Norbert Nobis, Sprengel Museum, Hannover, 24. Januar bis 10. April 1988 S. 85 / Abb. 47.</li>
+              <li> Lissitzky, E. (1924). Der Konstrukteur (Selbstbildnis) [Fotomontage]. Eindhoven, Stedelijk Van Abbemuseum, Pfisterer, Ulrich/ von Rosen, Valeska (Hrsg.): Der Künstler als Kunstwerk. Selbstporträts vom Mittelalter bis zur Gegenwart, Stuttgart 2005 S. 161.</li>
+              <li> Nakov, A., & Malewitsch, K. (1920). Gruppe UNOWIS auf dem Weg nach Moskau zur Gesamtrussischen Konferenz der Kunstlehrer und -schüler [Fotografie]. Archiv des Instituts für Kunstgeschichte der LMU München, Bahnhof in Vitebsk, Mai 1920. Im Zentrum: Malewitsch mit einer Mütze und einem suprematistischen Teller in der linken Hand. Unter seinem rechten Arm: El Lissistzky (mit Mütze), links: Nina Kogan (mit Hut). Unter der Linken von Malewitsch: Ilia Tchachnik (mit Mütze); im Zentrum: Lazare Hidekel. Hinter ihm: Lev Judin und Evguenia Magaril.</li>
+              <li> UNOWIS. (1920). Flugblatt Nr.1 des Witebsker „Tworkom“ [Lithographie, Papier]. Sankt Petersburg, Archiv des Instituts für Kunstgeschichte der LMU München.</li>
+              <li> Malewitsch, K. (1916). Dynamischer Suprematismus. ML 1294. Köln, Museum Ludwig, Kasimir Malewitsch. Suprematismus, Ausst.Kat. hrsg. v. Matthew Drutt, Berlin: 2003, Deutsche Guggenheim Berlin: 14. Januar - 27. April 2003 S. 176.</li>
+              <li> Lissitzky, E. (1920). Proun 1E – Die Stadt. Baku, Mustafajew - Museum der Künste, Kat. III/17, Berlin-Moskau.1900-1950, hrsg. von Irina Antonowa, Jörn Merkert (Kat. der Ausstellungen, Berlin und Moskau, 1996), München: Prestel, 1995, S. 249.</li>
+              <li> Lissitzky, E. (1920). Супрематический сказ про два квадрата в 6-ти постройках (Suprematische Erzählung von zwei Quadraten in 6 Aufstellungen). Verlag „Skythen“.</li>
+              <li> Unbekannt. (1869). Lubok – Abschied [Papier, kolorierte Lithographie]. Jewgenija Petrowa/Jochen Poetter (Hrsg.): Russische Avantgarde und Volkskunst, Stuttgart 1993 (Staatliche Kunsthalle Baden-Baden, Staatliches Russisches Museum St. Petersburg) S. 116, oben.</li>
+              <li> Unbekannt. (1889). Traditionell besticktes Küchentuch. https://flomaster.top/67960-tkani-slavjanskie-uzory.html .</li>
+              <li> Unbekannt. (1400 – 1415). Der Thronende Heiland [Ikone]. Bednik, N.I., Averinzev, S.S., Uspenskij, L.A. (Hrsg.): Frühe russische Ikone 11Jh. - 16Jh., St. Petersburg 1993 Abb. 46.</li>
+              <li> Unbekannt. (1680). Russische Ikone, Gottesmutter Hodegetria von Tichwin [Ikone]. Ikone, russ. Hodegetria v. Tichwin / 1680 (Det.) / Moskau, Rubljow Mus. 78.</li>
+              <li> Unbekannt. (1919). Schema der feindlichen Aufstellung an der Front der Truppen der Sibirischen Armee in Russland. [105 x 72 cm; Militärische Karte]. Unterzeichnet vom Leiter der Nachrichtenabteilung des Hauptquartiers der Sibirischen Armee, Oberstleutnant (Unterschrift unleserlich) und seinem Assistenten (Stellvertreter), Leutnant Zanevsky. Mit Angabe der Anzahl von Bajonetten, Karabinern, Maschinengewehren und Kanonen sowie von zwei Flugzeugen und einem Panzerzug.</li>
+              <li> Kustodjew, B. (1919). Der Bolschewik [Öl auf Leinwand]. Briony Fer, Realism, Rationalism, Surrealism - Art between the Wars, London 1993.</li>
+              <li> Unbekannt. (E.14.Jh.). Ikone: Prophet Elias [Malerei / Tafelmalerei]. Lazarev, Viktor Nikitič / Demus, Otto: UdSSR - frühe russische Ikonen, 1958. Taf.06.</li>
+              <li> Unbekannt. (E.14.Jh.). Ikone: Heiliger Georg [Malerei / Tafelmalerei]. Lazarev, Viktor Nikitič / Demus, Otto: UdSSR - frühe russische Ikonen, 1958. Taf.06.</li>
+              <li> Kolli, N. D. (1918). Denkmal „Roter Keil“ – Skizze [Zeichnung].</li>
+              <li> Unbekannt. (1918). Nikolai Kollis Denkmal „Roter Keil“ auf dem Platz der Revolution, Moskau [Fotografie].</li>
+              <li> Dinitz, M. (2024). Foto eines Sovietstern-Ansteckers aus 1964 [Fotografie].</li>
+              <li> Unbekannt. (1950s). Rudolf Arnheim performing a class at the Sarah Lawrence College in Bronxville [Fotografie]. SLC Course Catalog.</li>
+              <li> Erfurth, H. (1920). Porträt Wassily Kandinsky [Fotografie].</li>
+              <li> Wasow, E. (1924). Porträt Heinrich Wölfflin [Fotografie].</li>
+            </0l>  
+    </div>
+    <footer></footer>
+</body>
+</html>
