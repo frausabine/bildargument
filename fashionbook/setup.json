@@ -1,0 +1,11 @@
+{
+    "id": "fashionbook",
+    "title": "The First Book of Fashion",
+    "subtitle": "Matthäus Schwarz und sein Trachtenbuch",
+    "colors": {
+        "background-color": "#640026",
+        "intro-background-color": "#FFFDFA",
+        "text-color": "#640026",
+        "accent-color": "#1C9E9E"
+    }
+}
