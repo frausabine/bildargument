@@ -1,0 +1,11 @@
+{
+    "id": "flowchart-template",
+    "title": "Ein Bild erforschen",
+    "subtitle": "Anhand von dargestellten Aspekten, kunst- und kostümhistorischer Einordnung ein Bild erforschen.",
+    "colors": {
+        "background-color": "#F3F4F5",
+        "intro-background-color": "#CBBDDB",
+        "text-color": "#474747",
+        "accent-color": "#644884"
+    }
+}
