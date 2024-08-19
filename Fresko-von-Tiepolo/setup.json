@@ -1,0 +1,11 @@
+{
+    "id": "flowchart-template",
+    "title": "Die Ankunft des Antonius",
+    "subtitle": "Die Fresken im Palazzo Labia von Tiepolo",
+    "colors": {
+        "background-color": "#F2EEE6",
+        "intro-background-color": "#c1a895",
+        "text-color": "#F2EEE6",
+        "accent-color": "#1C9E9E"
+    }
+}
