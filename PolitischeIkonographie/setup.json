@@ -1,11 +1,11 @@
 {
     "id": "flowchart-template",
-    "title": "Flowchart Template",
-    "subtitle": "Navigating and narrating complexity through exploration and storytelling",
+    "title": "Politische Ikonografie",
+    "subtitle": "ein Projekt der Fachhochschule Potsdam von Emma-Luisa Sachse",
     "colors": {
-        "background-color": "#F2EEE6",
-        "intro-background-color": "#FFFDFA",
-        "text-color": "#4D5B80",
-        "accent-color": "#1C9E9E"
+        "background-color": "#2C2929",
+        "intro-background-color": "#F9E0ED",
+        "text-color": "#2C2929",
+        "accent-color": "#E4007C"
     }
 }

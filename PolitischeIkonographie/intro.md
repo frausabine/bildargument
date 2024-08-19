@@ -1,9 +1,11 @@
-Adipisicing fugiat exercitation exercitation sunt. Sit voluptate qui labore incididunt esse officia dolore do dolore commodo eiusmod commodo. Sunt nostrud deserunt reprehenderit Lorem eu amet ipsum culpa velit ad nostrud incididunt exercitation ut officia. Cupidatat voluptate nostrud commodo aliquip dolor ad cillum ut labore incididunt consequat laboris.
+Politische Ikonographie spielt eine zentrale Rolle in der visuellen Kommunikation von Parteien. Am Beispiel des Wahlplakats der FDP zur Bundestagswahl 2021, das Christian Lindner am Schreibtisch zeigt, lässt sich dies gut veranschaulichen. Die Schwarz-Weiß-Fotografie, der Slogan „Nie gab es mehr zu tun“ und die Bildkomposition lenken den Fokus auf Lindners Engagement und Dringlichkeit. Diese Analyse vergleicht historische und zeitgenössische Beispiele, um die Bedeutung und Wirkung politischer Bildsprache zu verdeutlichen.
 
-# How to Use
+# Literatur
 
-Use the button below to start (and pause) the audio narration of the chart. You can also explore the chart yourself by selecting any visible items and moving along step by step.
+Nikolas Werner Jacobs, Gibt es demokratische Ikonographien?, in: Politische Ikonologie. Zur Geschichte und Zukunft der Bildkritik  Veranstaltung  2020  Frankfurt am Main, Politische Ikonologie: Bildkritik Nach Martin Warnke (Berlin: Reimer, 2022), S. 67-82
 
-# Credits
+# Impressum
 
-This demo project was created at [Urban Complexity Lab](https://uclab.fh-potsdam.de/) as a placeholder example for the customizable flowchart template linked to below.
+Dieses Projekt wurde an der Fachhochschule Potsdam im Rahmen des Kurses: Argumentation im Bild und über das Bild: Europäische Bild- und Kleidergeschichte visualisiert. Mithilfe der Technik des [Urban Complexity Lab](https://uclab.fh-potsdam.de/) wurde das Projekt von Emma-Luisa Sachse unter der Leitung von Dr. Sabine de Günther entwickelt.
+
+Inhalte, welche wörtlich zitiert wurden sind in Anführungszeichen gesetzt. Alle Stellen sind aus dem Werk von Nikolas Werner Jacobs zurück zuführen und entnommen.
