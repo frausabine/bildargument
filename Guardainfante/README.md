@@ -7,7 +7,7 @@ Die Kleidung der zukünftigen Königin ist mit großer Intention gewählt und be
 
 Das Portrait zeigt die Mode der Zeit, die geopolitische Positionierung, den Wohlstand, die Rolle der Frau und noch vieles mehr.
 
-<img src='img/Isabel de Borbón, Wife of Philip IV.jpg'>
+<img src='img/Isabel de Borbón.jpg'>
 
 
 
